@@ -3,9 +3,11 @@
 
 - creamos un archivo Dockerfile y colocaremos toda la configuración de nuestro contenedor 
  1. Instalamos node especificando la version
+ 
    ```
    FROM node:18
     ```
+    
  2. Especificamos el directorio de trabajo
    ```
   WORKDIR /app
