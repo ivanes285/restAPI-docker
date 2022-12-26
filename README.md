@@ -53,7 +53,7 @@ docker images
 
 ```
 docker run -it -p 4000:3000 <nombre de la imagen>
-```
+
 
 
 
