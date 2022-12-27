@@ -17,11 +17,11 @@
    
 3. Copiamos el package.json y el package-lock.json si existe en este caso copiamos pnpm-lock.yaml
 
-```
+   ```
 COPY package.json ./
 COPY pnpm-lock.yaml ./
-
-```
+ 
+   ```
 
 4. Instalamos las dependencias y modulos con el comando 
 - En el caso que estemos usando pnpm 
