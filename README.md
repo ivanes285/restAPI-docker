@@ -11,9 +11,8 @@
 2. Especificamos el directorio de trabajo
  
    ```
-  WORKDIR /app
-  
-  
+   FROM node:18
+
    ```
    
 3. Copiamos el package.json y el package-lock.json si existe en este caso copiamos pnpm-lock.yaml
