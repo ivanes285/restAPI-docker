@@ -74,7 +74,7 @@ docker images
 
 ```
  
-- Ejecutamos el contenedor con el comando  Nota: el puerto 4000 es el puerto que se va a exponer y el 3000 es el puerto que se va a utilizar en la aplicación>>
+- Ejecutamos el contenedor con el comando  Nota: el puerto 4000 es el puerto que se va a exponer y el 3000 es el puerto que se va a utilizar en la aplicación
 
 ```
 docker run -it -p 4000:3000 <nombre de la imagen>
