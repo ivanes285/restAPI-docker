@@ -12,7 +12,6 @@
  
    ```
   WORKDIR /app
-
    ```
    
 3. Copiamos el package.json y el package-lock.json si existe en este caso copiamos pnpm-lock.yaml
