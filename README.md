@@ -3,13 +3,17 @@
 
 - creamos un archivo Dockerfile y colocaremos toda la configuración de nuestro contenedor 
  1. Instalamos node especificando la version
+ 
    ```
    FROM node:18
     ```
+    
  2. Especificamos el directorio de trabajo
+ 
    ```
   WORKDIR /app
    ```
+   
  3. Copiamos el package.json y el package-lock.json si existe en este caso copiamos pnpm-lock.yaml
 ```
 COPY package.json ./
